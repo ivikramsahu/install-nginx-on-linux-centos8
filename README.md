@@ -77,22 +77,22 @@ As per benchmarks Nginx is capable of handling larger number of concurrent conne
      
 4) Output on success and failure will be shown below
 
-  **ON Success**
+    **ON Success**
   
-   ```bash
-   ● nginx.service - The nginx HTTP and reverse proxy server
-     Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; vendor preset: disabled)
-     Active: active (running) since Sun 2019-10-31 21:09:32 IST; 5min ago
-   ```  
+      ```bash
+      ● nginx.service - The nginx HTTP and reverse proxy server
+      Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; vendor preset: disabled)
+      Active: active (running) since Sun 2019-10-31 21:09:32 IST; 5min ago
+      ```  
    
-   **ON Failure**
+    **ON Failure**
    
-   ```bash
-   [root@localhost ~]# systemctl status nginx 
-    ● nginx.service - The nginx HTTP and reverse proxy server
-    Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; vendor preset: disabled)
-    Active: failed (Result: exit-code) since Thu 2019-10-31 21:11:58 IST; 9s ago
-   ```
+      ```bash
+      [root@localhost ~]# systemctl status nginx 
+      ● nginx.service - The nginx HTTP and reverse proxy server
+      Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; vendor preset: disabled)
+      Active: failed (Result: exit-code) since Thu 2019-10-31 21:11:58 IST; 9s ago
+      ```
     
 ##  Firewall Restriction
 
