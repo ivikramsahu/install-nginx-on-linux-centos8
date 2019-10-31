@@ -116,5 +116,10 @@ if it already configure you will getting below alerts
   [root@localhost ~]# sudo firewall-cmd --reload
   success
   ```
-  
+
+## http://localhost/
+
+finally you can redirect to your http://Your-IP or http://localhost
+
+![nginx-localhost-linux](https://i.imgur.com/RWMtzwi.png)
    
