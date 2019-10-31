@@ -58,9 +58,9 @@ As per benchmarks Nginx is capable of handling larger number of concurrent conne
 
     when you type `y` + enter 
     
-    It will automatically install all dependecies 
+    It will automatically install all dependencies 
     
-2)  Once you have installed nginx successfully trigger the below command.
+2)  Once you have installed nginx successfully, trigger the below command on terminal.
 
     ```bash
     sudo systemctl enable nginx
