@@ -1,5 +1,7 @@
 ![how to install nginx on centos 8 , linux , rhel 8](https://i.imgur.com/zpB4yRm.png)
 
+### URL : https://vikram-sahu.github.io/install-nginx-on-linux-centos8/
+
 ## Introduction 
 
 Nginx is an open-source web server with high-performance HTTP and reverse proxy. Majority of largest sites on the internet trust Nginx for handling tons of load. 
